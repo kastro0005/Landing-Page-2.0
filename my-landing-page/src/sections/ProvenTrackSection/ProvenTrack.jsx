@@ -1,12 +1,12 @@
 import Card from "./components/card";
 import { Items } from "./constant/items";
 
-export default function Python() {
+export default function ProvenTrack() {
   return (
     <section className="py-16 bg-gray-200 ">
       <div className="container px-4 mx-auto">
         <h2 className="mb-8 text-3xl font-bold">
-          Django & Python: Robust Server-side Solutions
+          Proven Track Record of Success
         </h2>
         <div className="space-y-6">
           {Items.map((item) => (
