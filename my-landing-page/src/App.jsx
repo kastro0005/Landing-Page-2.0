@@ -9,7 +9,7 @@ import React from "./sections/ReactSection/React";
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen text-gray-800 bg-gray-100">
+    <div className="min-h-screen text-gray-800 bg-gray-100 ">
       <Hero />
       <React />
       <Python />

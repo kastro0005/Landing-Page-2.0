@@ -6,10 +6,11 @@ export default {
   theme: {
     extend: {
       screens: {
-        Mobile: "480px",
+        Mobile: "390px",
         Tablet: "768px",
         Laptop: "1280px",
         Desktop: "1920px",
+        DesktopHd: "2560px",
       },
     },
   },
