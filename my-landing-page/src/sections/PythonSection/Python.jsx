@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Card from "./components/card";
 import { Items } from "./constant/items";
 
