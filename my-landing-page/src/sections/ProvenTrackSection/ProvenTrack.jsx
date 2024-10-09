@@ -21,7 +21,7 @@ export default function ProvenTrack() {
         </div>
       </div>
       <div>
-        <img alt="" src={ImgProve} className="rounded-lg aspect-auto"/>
+        <img alt="" src={ImgProve} className="rounded-lg aspect-auto" />
       </div>
     </section>
   );

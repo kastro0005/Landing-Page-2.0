@@ -5,7 +5,7 @@ const Card = ({ title, content }) => {
       <div>
         <details open>
           <summary className="mb-4 text-3xl font-semibold">{title}</summary>
-          <p className="p-2 ml-2 text-2xl border-l border-gray-400">
+          <p className="p-2 pl-5 ml-2 text-2xl border-l border-gray-400">
             {content}
           </p>
         </details>
