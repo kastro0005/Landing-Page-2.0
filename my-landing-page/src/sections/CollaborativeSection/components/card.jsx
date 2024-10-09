@@ -3,8 +3,12 @@ const Card = ({ title, content }) => {
   return (
     <div className="flex items-center">
       <div>
-        <h3 className="text-xl font-semibold">{title}</h3>
-        <p>{content}</p>
+        <details open>
+          <summary className="mb-4 text-3xl font-semibold">{title}</summary>
+          <p className="p-2 ml-2 text-2xl border-l border-gray-400">
+            {content}
+          </p>
+        </details>
       </div>
     </div>
   );
