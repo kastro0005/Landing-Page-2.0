@@ -8,7 +8,7 @@ export default function Hero() {
       style={{
         backgroundImage: `url(${Img})`,
       }}
-      className="relative flex flex-col items-center justify-between py-16 text-white ">
+      className="relative flex flex-col items-center h-screen py-16 text-white justify-evenly">
       <div className="absolute inset-0 bg-black opacity-70 " />
       <div className="z-20 flex items-center justify-center px-4 mb-10">
         <HeroLogoH className="hidden w-[800px] h-auto Laptop:inline " />
