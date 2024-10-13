@@ -99,13 +99,13 @@ const Contact = () => {
             </h2>
             <p className="mb-4">Software Development.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-cyan-400 hover:text-cyan-300">
+              <a href="https://github.com/kastro0005" className="text-cyan-400 hover:text-cyan-300">
                 GitHub
               </a>
-              <a href="#" className="text-cyan-400 hover:text-cyan-300">
+              <a href="www.linkedin.com/in/adrian-c-sierra-082326280" className="text-cyan-400 hover:text-cyan-300">
                 LinkedIn
               </a>
-              <a href="#" className="text-cyan-400 hover:text-cyan-300">
+              <a href=" https://wa.me/+15616762439" className="text-cyan-400 hover:text-cyan-300">
                 Whatsapp
               </a>
             </div>
