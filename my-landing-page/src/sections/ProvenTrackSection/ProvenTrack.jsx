@@ -1,27 +1,14 @@
-import Card from "./components/card";
-import { Items } from "./constant/items";
+import Opacity from "../components/Mantel/opacity";
 import ImgProve from "./../../assets/img/ProvenTrack.png";
+import Texto from "./components/texto";
 
 export default function ProvenTrack() {
   return (
-    <section className="flex justify-between px-10 py-10 bg-gray-200 ">
-      <div className="container px-4  w-[800px]">
-        <h2 className="mb-8 text-5xl font-bold">
-          Proven Track Record of Success
-        </h2>
-        <div className="">
-          {Items.map((item) => (
-            <Card
-              key={item.id}
-              id={item.id}
-              title={item.title}
-              content={item.content}
-            />
-          ))}{" "}
-        </div>
-      </div>
-      <div>
-        <img alt="" src={ImgProve} className="rounded-lg aspect-auto" />
+    <section className="relative flex justify-end items-center text-white  bg-ProvenImg  Laptop:h-[640px] Tablet:h-[650px] h-[850px] bg-center  bg-cover">
+      <Opacity />
+      <Texto />
+      <div className="z-10 hidden Laptop:inline">
+        <img alt="" src={ImgProve} className="w-[500px] h-[640px]" />
       </div>
     </section>
   );
