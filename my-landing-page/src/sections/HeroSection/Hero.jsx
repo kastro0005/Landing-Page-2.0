@@ -15,8 +15,8 @@ export default function Hero() {
       <Texto />
 
       <div className="z-20 flex items-center justify-center w-full gap-4 px-8 Tablet:gap-20">
-        <Boton name="Our Services" />
-        <Boton name="Contact Us" />
+        <Boton name="Our Services" section="Services" />
+        <Boton name="Contact Us" section="Contact" />
       </div>
     </header>
   );

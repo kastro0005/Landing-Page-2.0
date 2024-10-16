@@ -81,7 +81,9 @@ const CodeAnimation = () => {
 
 const Contact = () => {
   return (
-    <footer className="relative bg-gray-900 text-white overflow-hidden">
+    <footer
+      id="Contact"
+      className="relative overflow-hidden text-white bg-gray-900">
       <div className="absolute inset-0 w-full h-full">
         <Canvas camera={{ position: [0, 0, 15] }}>
           <ambientLight intensity={0.2} /> // Reduced intensity for a more
@@ -91,28 +93,34 @@ const Contact = () => {
           <CodeAnimation />
         </Canvas>
       </div>
-      <div className="relative z-10 container mx-auto px-6 py-12">
+      <div className="container relative z-10 px-6 py-12 mx-auto">
         <div className="flex flex-wrap">
-          <div className="w-full md:w-1/4 mb-8 md:mb-0">
-            <h2 className="text-2xl font-bold mb-4">
+          <div className="w-full mb-8 md:w-1/4 md:mb-0">
+            <h2 className="mb-4 text-2xl font-bold">
               Sierra-Esperanza Creations LLC{" "}
             </h2>
             <p className="mb-4">Software Development.</p>
             <div className="flex space-x-4">
-              <a href="https://github.com/kastro0005" className="text-cyan-400 hover:text-cyan-300">
+              <a
+                href="https://github.com/kastro0005"
+                className="text-cyan-400 hover:text-cyan-300">
                 GitHub
               </a>
-              <a href="www.linkedin.com/in/adrian-c-sierra-082326280" className="text-cyan-400 hover:text-cyan-300">
+              <a
+                href="www.linkedin.com/in/adrian-c-sierra-082326280"
+                className="text-cyan-400 hover:text-cyan-300">
                 LinkedIn
               </a>
-              <a href=" https://wa.me/+15616762439" className="text-cyan-400 hover:text-cyan-300">
+              <a
+                href=" https://wa.me/+15616762439"
+                className="text-cyan-400 hover:text-cyan-300">
                 Whatsapp
               </a>
             </div>
           </div>
-          <div className="w-full md:w-3/4 flex flex-wrap">
-            <div className="w-full md:w-1/3 mb-8 md:mb-0">
-              <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+          <div className="flex flex-wrap w-full md:w-3/4">
+            <div className="w-full mb-8 md:w-1/3 md:mb-0">
+              <h3 className="mb-4 text-lg font-semibold">Our Services</h3>
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="hover:text-cyan-400">
@@ -136,8 +144,8 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="w-full md:w-1/3 mb-8 md:mb-0">
-              <h3 className="text-lg font-semibold mb-4">Resources</h3>
+            <div className="w-full mb-8 md:w-1/3 md:mb-0">
+              <h3 className="mb-4 text-lg font-semibold">Resources</h3>
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="hover:text-cyan-400">
@@ -162,7 +170,7 @@ const Contact = () => {
               </ul>
             </div>
             <div className="w-full md:w-1/3">
-              <h3 className="text-lg font-semibold mb-4">Contact</h3>
+              <h3 className="mb-4 text-lg font-semibold">Contact</h3>
               <ul className="space-y-2">
                 <li>sierraesperanzac@gmail.com</li>
                 <li>+1 (562) 300-5819</li>
@@ -171,7 +179,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
+        <div className="pt-8 mt-8 text-sm text-center border-t border-gray-700">
           <p>&copy; 2024 Sierra-Esperanza Creations. All Rights Reserved.</p>
         </div>
       </div>
