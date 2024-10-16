@@ -1,5 +1,5 @@
 import Opacity from "../components/Mantel/opacity";
-import ImgProve from "./../../assets/img/ProvenTrack.png";
+import ImgProve from "./../../assets/img/ProvenTrack.avif";
 import Texto from "./components/texto";
 
 export default function ProvenTrack() {

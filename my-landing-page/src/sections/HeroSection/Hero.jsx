@@ -6,7 +6,7 @@ import Texto from "./components/texto";
 export default function Hero() {
   return (
     <header className="relative flex flex-col items-center h-screen py-16 text-white bg-cover Laptop:bg-center justify-evenly bg-HeroImg ">
-      <div className="absolute inset-0 bg-black opacity-85 " />
+      <div className="absolute inset-0 bg-black opacity-80 " />
       <div className="z-20 flex items-center justify-center px-4 mb-10">
         <HeroLogoH className="hidden w-[800px] h-auto Laptop:inline " />
         <HeroLogoV className="inline w-[200px] Tablet:w-[350px] h-auto Laptop:hidden " />

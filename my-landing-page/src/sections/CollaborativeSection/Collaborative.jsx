@@ -1,5 +1,5 @@
 import Opacity from "../components/Mantel/opacity";
-import ImgColl from "./../../assets/img/Collaborative.png";
+import ImgColl from "./../../assets/img/Collaborative.avif";
 import Texto from "./components/texto";
 
 export default function Collaborative() {

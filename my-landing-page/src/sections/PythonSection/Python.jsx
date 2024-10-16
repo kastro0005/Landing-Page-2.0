@@ -1,5 +1,5 @@
 import Opacity from "../components/Mantel/opacity";
-import ImgPy from "./../../../src/assets/img/Python.png";
+import ImgPy from "./../../../src/assets/img/Python.avif";
 import Texto from "./components/texto";
 
 export default function Python() {
