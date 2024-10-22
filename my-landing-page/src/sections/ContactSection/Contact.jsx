@@ -84,17 +84,15 @@ const Contact = () => {
     <footer
       id="Contact"
       className="relative overflow-hidden text-white bg-gray-900">
-      <div className="absolute inset-0 w-full h-full">
+      <div className="absolute inset-0 w-full h-full ">
         <Canvas camera={{ position: [0, 0, 15] }}>
-          <ambientLight intensity={0.2} /> // Reduced intensity for a more
-          subtle effect
-          <pointLight position={[10, 10, 10]} intensity={0.5} /> // Reduced
-          intensity
+          <ambientLight intensity={0.2} />
+          <pointLight position={[10, 10, 10]} intensity={0.5} />
           <CodeAnimation />
         </Canvas>
       </div>
-      <div className="container relative z-10 px-6 py-12 mx-auto">
-        <div className="flex flex-wrap">
+      <div className="relative z-10 pt-10 ">
+        <div className="flex flex-wrap px-10">
           <div className="w-full mb-8 md:w-1/4 md:mb-0">
             <h2 className="mb-4 text-2xl font-bold">
               Sierra-Esperanza Creations LLC{" "}
@@ -179,8 +177,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="pt-8 mt-8 text-sm text-center border-t border-gray-700">
-          <p>&copy; 2024 Sierra-Esperanza Creations. All Rights Reserved.</p>
+        <div className="flex items-center justify-center h-full py-2 mt-8 text-sm text-center border-t border-gray-700">
+          <p>
+            &copy; {new Date().getFullYear()} All rights reserved | Designed and
+            implemented by:&nbsp;{" "}
+            <span className="inline-block ">Sierra-Esperanza Creations</span>
+          </p>
         </div>
       </div>
     </footer>

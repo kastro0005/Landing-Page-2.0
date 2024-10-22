@@ -8,7 +8,11 @@ export default function Collaborative() {
       <Opacity />
       <Texto />
       <div className="z-10 hidden Laptop:inline">
-        <img alt="" src={ImgColl} className="aspect-auto h-[708px]" />
+        <img
+          alt="Imagen que representa la colaboracion"
+          src={ImgColl}
+          className="aspect-auto h-[708px]"
+        />
       </div>
     </section>
   );

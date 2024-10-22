@@ -8,7 +8,11 @@ export default function ProvenTrack() {
       <Opacity />
       <Texto />
       <div className="z-10 hidden Laptop:inline">
-        <img alt="" src={ImgProve} className="w-[500px] h-[640px]" />
+        <img
+          alt="Imagen que representa el producto realizado"
+          src={ImgProve}
+          className="w-[500px] h-[640px]"
+        />
       </div>
     </section>
   );
