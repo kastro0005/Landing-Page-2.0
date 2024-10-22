@@ -68,7 +68,7 @@ const CodeAnimation = () => {
             position={[
               Math.random() * viewport.width - viewport.width / 2,
               Math.random() * viewport.height - viewport.height / 2,
-              Math.random() * 10 - 15,
+              Math.random(),
             ]}
           />
         )
@@ -91,6 +91,7 @@ const Contact = () => {
           <CodeAnimation />
         </Canvas>
       </div>
+      <div className="absolute inset-0 bg-black opacity-60 " />
       <div className="relative z-10 pt-10 ">
         <div className="flex flex-wrap px-10">
           <div className="w-full mb-8 md:w-1/4 md:mb-0">
