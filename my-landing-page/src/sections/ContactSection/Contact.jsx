@@ -175,7 +175,7 @@ const Contact = () => {
               <h3 className="mb-4 text-lg font-semibold">Contact</h3>
               <ul className="space-y-2">
                 <li>sierraesperanzac@gmail.com</li>
-                <li>+1 (562) 300-5819</li>
+                <li>+1 (561) 300-5819</li>
                 <li>West Palm Beach, FL</li>
               </ul>
             </div>
