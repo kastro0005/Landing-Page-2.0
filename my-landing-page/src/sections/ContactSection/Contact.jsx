@@ -102,16 +102,19 @@ const Contact = () => {
             <div className="flex space-x-4">
               <a
                 href="https://github.com/kastro0005"
+                target="_blank"
                 className="text-cyan-400 hover:text-cyan-300">
                 GitHub
               </a>
               <a
-                href="www.linkedin.com/in/adrian-c-sierra-082326280"
+                href="https://linkedin.com/in/adrian-c-sierra-082326280"
+                target="_blank" 
                 className="text-cyan-400 hover:text-cyan-300">
                 LinkedIn
               </a>
               <a
                 href=" https://wa.me/+15616762439"
+                target="_blank"
                 className="text-cyan-400 hover:text-cyan-300">
                 Whatsapp
               </a>
